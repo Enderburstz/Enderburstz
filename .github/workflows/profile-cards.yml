@@ -27,14 +27,14 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=Enderburstz&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=github_dark
+          options: username=Enderburstz&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&theme=github_dark
           path: profile/stats-dark.svg
           token: ${{ secrets.STATS_TOKEN }}
       - name: Stats (light)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=Enderburstz&show_icons=true&count_private=true&include_all_commits=true&hide_border=true
+          options: username=Enderburstz&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true
           path: profile/stats-light.svg
           token: ${{ secrets.STATS_TOKEN }}
 
